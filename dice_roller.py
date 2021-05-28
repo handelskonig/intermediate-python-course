@@ -1,5 +1,7 @@
+import random
 def main():
-  print('You rolled a die')
+  roll = random(1,5)
+  print(f'You rolled a {roll}')
 
 if __name__== "__main__":
   main()
